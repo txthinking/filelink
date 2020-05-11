@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153534396-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-153534396-4');
+        </script>
+        <title>filelink.io</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Upload and download file in command line" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/weightless@0.0.37/umd/weightless.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/superagent@5.1.2/dist/superagent.min.js"></script>
+    </head>
+    <body style="background-color:#000000;color:#ffffff;">
+        <div style="width:100%;height:100vh;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+            <div style="width:100%;display:flex;flex-direction:row;justify-content:space-between;padding-top:10px;">
+                <div style="padding-left:20px;">
+                    <wl-title level="1">filelink.io</wl-title>
+                </div>
+                <div style="padding-right:20px;">
+                    <wl-button flat inverted outlined style="color:#ffffff;"><a href="https://paypal.me/txthinkingOU" style="text-decoration:none;color:#ffffff;">Donate</a></wl-button>
+                </div>
+            </div>
+            <div>
+                <div style="font-family:monospace;border:1px solid #ffffff;border-radius:10px;padding:20px;font-size:20px;">
+                    <p id="p">
+                    $ filelink https://filelink.io/...
+                    </p>
+                </div>
+            </div>
+            <wl-button flat inverted outlined style="color:#ffffff;"><a href="/" style="text-decoration:none;color:#ffffff;">Install filelink</a></wl-button>
+            <div>
+                <div style="display:flex;flex-direction:row;justify-content:center;">
+                    <div style="padding: 5px;"><a style="text-decoration:none;color:#eeeeee;" href="mailto:cloud@txthinking.com">Contact</a></div>
+                    <div style="padding: 5px;"><a style="text-decoration:none;color:#eeeeee;" href="https://www.txthinking.com/terms.html">Terms</a></div>
+                    <div style="padding: 5px;"><a style="text-decoration:none;color:#eeeeee;" href="https://www.txthinking.com/privacy.html">Privacy</a></div>
+                </div>
+                <div style="display:flex;flex-direction:row;justify-content:center;padding:10px;">
+                    <div style="padding: 5px;color:#eeeeee;"><div>&copy; <a style="text-decoration:none;color:#eeeeee;" href="https://www.txthinking.com">TxThinking OÜ</a> All Rights Reserved.</div></div>
+                </div>
+            </div>
+        </div>
+<script>
+    document.querySelector('p').innerText = "$ filelink " + location.href;
+</script>
+    </body>
+</html>
