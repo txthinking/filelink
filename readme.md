@@ -2,8 +2,6 @@
 
 Upload and download file in command line
 
-> Now only support linux amd64
-
 ### Install via [nami](https://github.com/txthinking/nami)
 
 ```
