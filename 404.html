@@ -28,11 +28,11 @@ gtag('config', 'UA-153534396-4');
                     <wl-button flat inverted outlined style="color:#ffffff;"><a href="https://paypal.me/txthinkingOU" style="text-decoration:none;color:#ffffff;">Donate</a></wl-button>
                 </div>
             </div>
-            <div>
+            <div style="max-width:90%;">
                 <div style="font-family:monospace;border:1px solid #ffffff;border-radius:10px;padding:20px;font-size:20px;">
-                    <p id="p">
+                    <div id="p" style="word-break:break-all;">
                     $ filelink https://filelink.io/...
-                    </p>
+                    </div>
                 </div>
             </div>
             <wl-button flat inverted outlined style="color:#ffffff;"><a href="/" style="text-decoration:none;color:#ffffff;">Install filelink</a></wl-button>
@@ -48,7 +48,7 @@ gtag('config', 'UA-153534396-4');
             </div>
         </div>
 <script>
-    document.querySelector('p').innerText = "$ filelink " + location.href;
+    document.querySelector('#p').innerText = "$ filelink " + location.href;
 </script>
     </body>
 </html>
