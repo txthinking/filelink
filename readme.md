@@ -16,6 +16,10 @@ $ nami install github.com/txthinking/filelink
 
     $ filelink https://filelink.io/...
 
+## Author
+
+A project by [txthinking](https://www.txthinking.com)
+
 ## License
 
 Licensed under The GPLv3 License
