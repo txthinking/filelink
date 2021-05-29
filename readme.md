@@ -1,6 +1,8 @@
 # filelink.io
 
-Upload and download file in command line
+https://filelink.io
+
+Pastebin, upload and download file in command line
 
 ### Install via [nami](https://github.com/txthinking/nami)
 
@@ -8,11 +10,23 @@ Upload and download file in command line
 $ nami install github.com/txthinking/filelink
 ```
 
-### Upload
+### Paste:
+
+    $ echo hello | filelink
+
+> Expires after 7 days, ctrl+d to stop
+
+### View:
+
+    $ filelink https://filelink.io/xxx.txt
+
+### Upload:
 
     $ filelink /path/to/file
 
-### Download
+> The maximum size is 1G. Expires after download or 24 hours
+
+### Download:
 
     $ filelink https://filelink.io/...
 
