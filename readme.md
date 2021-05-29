@@ -2,7 +2,7 @@
 
 https://filelink.io
 
-Pastebin, upload and download file in command line
+Pastebin, markdown, upload and download file in command line
 
 ### Install via [nami](https://github.com/txthinking/nami)
 
